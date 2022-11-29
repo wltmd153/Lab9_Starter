@@ -2,7 +2,6 @@
 https://wltmd153.github.io/Lab9_Starter/
 
 
-xfun::embed_file("TrackJS - Dashboard.pdf")
+![trackJS](TrackJS - Dashboard.pdf)
 
-
-![trackJS](trackjs.png)
+![trackJS2](trackjs.png)
