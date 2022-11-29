@@ -4,4 +4,5 @@ https://wltmd153.github.io/Lab9_Starter/
 
 ![trackJS2](trackjs.png)
 
-<TrackJS - Dashboard.pdf>
+There is also a pdf version of the trackJS
+![a](TrackJS - Dashboard.pdf)
