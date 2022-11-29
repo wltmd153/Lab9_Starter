@@ -102,6 +102,72 @@
 
     // Start your code here
     // You may move this JS to another file if you wish
+    //Step 2 - Adding Buttons for Console Testing
+    errorBtns[0].onclick = (e) => {
+      console.log("log");
+    };
+    errorBtns[1].onclick = (e) => {
+      console.error("error");
+    };
+    errorBtns[2].onclick = (e) => {
+      console.count("count");
+    };
+    errorBtns[3].onclick = (e) => {
+      console.warn("warn");
+    };
+    errorBtns[4].onclick = (e) => {
+      console.assert(false,'assert');
+    };
+    errorBtns[5].onclick = (e) => {
+      console.clear();
+    };
+    errorBtns[6].onclick = (e) => {
+      console.dir(errorBtns);
+    };
+    errorBtns[7].onclick = (e) => {
+      console.dirxml(errorBtns);
+    };
+    errorBtns[8].onclick = (e) => {
+      console.group("group");
+      console.info('1');
+      console.info('2');
+      console.info('3');
+      console.info('4');
+    };
+    errorBtns[9].onclick = (e) => {
+      console.groupEnd("group");
+    };
+    errorBtns[10].onclick = (e) => {
+      var table = [
+        {
+          first: 'Jiseung',
+          last: 'Yoo'
+        },
+        {
+          first: '1'
+        }
+        {
+          last: '2'
+        }
+      ]
+      console.table(table);
+    };
+    errorBtns[11].onclick = (e) => {
+      console.time("time");
+    };
+    errorBtns[12].onclick = (e) => {
+      console.timeEnd("timeEnd");
+    };
+    errorBtns[13].onclick = (e) => {
+      let one = () => { two(); };
+      let two = () => { three(); };
+      let three = () => { console.trace(); };
+      one();
+    };
+    errorBtns[14].onclick = (e) => {
+      throw new Error("done");
+    };
+    
   </script>
 </body>
 
