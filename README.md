@@ -6,4 +6,4 @@ https://wltmd153.github.io/Lab9_Starter/
 
 There is also a pdf version of the trackJS
 
-Read more [here](./TrackJS - Dashboard.pdf)
+Read more [here](TrackJS - Dashboard.pdf)
